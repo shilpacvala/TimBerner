@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding-top: 800px;
+}
+/*Styling the image*/
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%; /* For round shaped image */
+}
+/*Styling the section welcome*/
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0px; /* Position of the element from the left side*/
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    opacity: 0.83; /* Transperancy of the element*/
+    
+    background: linear-gradient(pink,red); /* can give shades from top-bottom(by default) OR left to right(to right,red,yellow) OR Diagonally(to bottom right ,red,yellow)---E.G linear-gradient(#60ebeb 0%, #27ae60 100%); */
+    
+    display: table; /*Let the element behave like a <table> element*//**/
+    width: 100%;/* occupy 100% of the screen*/
+    height: 100%;
+    
+}
+/*Styling the div tag*/
+.pallax-inner{
+    display: table-cell;/*Let the element behave like a <td>(cell) element*/
+    position: relative;/*Other content will not be adjusted to fit into any gap left by the element.If absolute-- moves/scrolls along with the page*/
+    text-align: center;
+    vertical-align: middle;
+}
+/*Styling h1 tag*/
+h1{
+    font-size: 40px;
+    line-height: 1.2; /*Set the line height as a number*/
+    font-family: inherit;
+}
+/*Styling h1 Tim Bereners-Lee text*/
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family:'Cinzel Decorative',cursive;
+}
+/*Styling h2 tag*/
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+/*Styling Section BIO*/
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+/*Styling the line under text "Hi" */
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+/*Styling paragraph tag*/
+p{
+    max-width: 450px; /*the maximum width of an element.If the content is larger than the maximum width, it will automatically change the height of the element.*/
+    font-size: 17px;
+    margin: 25px auto;
+    line-height: 1.3;
+}
+/*Styling MENU BAR ITEMS*/
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed; /*position:absolute --- Menu will not scroll along with the browser;*/
+    top: 10px;
+    right:30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: #000;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size:20px;
+}
+.links:hover{
+    background-color: mediumturquoise;
+}
+
